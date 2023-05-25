@@ -15,7 +15,7 @@
         android:layout_weight="0.1"
         android:ems="10"
         android:inputType=""
-        android:text="Port" />
+        android:hint="Port" />
 
     <EditText
         android:id="@+id/editTextCurrency"
@@ -24,7 +24,7 @@
         android:layout_weight="0.1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Currency" />
+        android:hint="Currency" />
 
     <Button
         android:id="@+id/connectButton"
@@ -34,7 +34,7 @@
         android:text="Connect" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/getResultButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
